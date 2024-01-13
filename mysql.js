@@ -1,3 +1,7 @@
+export async function query() {
+
+}
+
 const mysql = require("mysql2");
 connection = mysql.createConnection({
     host: "localhost",
