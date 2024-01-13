@@ -21,7 +21,7 @@ exports.getAll=async function(req,res){
 
 exports.getOne=async function(req,res,idArticle){
   let arr=[];
-  let sql="select * from article where idArticle=?";
+  let sql="select * from article where kiArticle=?";
   console.log(req);
   filter=[req];
   console.log(req);
